@@ -1,3 +1,7 @@
+import javax.print.Doc;
+import javax.swing.text.Document;
+import java.io.File;
+
 public class mian {
     public static void main(String[] args) {
         // bug1:除零
@@ -11,5 +15,10 @@ public class mian {
         } else {
             System.out.println("1");
         }
+
+        // bug3:数据类型转换
+        double dou = 1 + 2;
+        System.out.println(dou);
+
     }
 }
