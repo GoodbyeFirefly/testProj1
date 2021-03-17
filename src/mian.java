@@ -1,6 +1,7 @@
 import javax.print.Doc;
 import javax.swing.text.Document;
 import java.io.File;
+import java.util.Random;
 
 public class mian {
     public static void main(String[] args) {
@@ -20,7 +21,10 @@ public class mian {
         double dou = 1 + 2;
         System.out.println(dou);
 
-        // bug4:无用自我分配
+        // bug4:无用变量自我分配
+        a = a;
+
+        // bug5:无用变量自我分配
         a = a;
 
     }
