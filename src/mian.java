@@ -27,5 +27,8 @@ public class mian {
         // bug5:无用变量自我分配
         a = a;
 
+        // bug6:无用变量自我分配
+        a = a;
+
     }
 }
