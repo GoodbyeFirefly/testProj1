@@ -20,5 +20,8 @@ public class mian {
         double dou = 1 + 2;
         System.out.println(dou);
 
+        // bug4:无用自我分配
+        a = a;
+
     }
 }
